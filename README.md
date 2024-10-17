@@ -11,13 +11,13 @@ Currently Cloudflare doesn't provide an official linux/arm64 docker image of `cl
 Get from Github Container Registry:
 
 ```shell
-docker pull ghcr.io/milgradesec/cloudflared:latest
+docker pull ghcr.io/mrkhachaturov/cloudflared:latest
 ```
 
 Get from Docker Hub:
 
 ```shell
-docker pull milgradesec/cloudflared:latest
+docker pull mrkhachaturov/cloudflared:latest
 ```
 
 ## About
