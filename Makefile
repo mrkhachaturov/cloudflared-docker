@@ -16,8 +16,8 @@ docker-release:
 		--file build.Dockerfile \
 		--build-arg=CLOUDFLARED_VERSION=$(VERSION) \
 		--platform linux/amd64,linux/arm64,linux/arm/v7 \
-		--tag ghcr.io/astraautoio/cloudflared:$(VERSION) \
-		--tag ghcr.io/astraautoio/cloudflared:latest \
-		--tag astraautoio/cloudflared:$(VERSION) \
-		--tag astraautoio/cloudflared:latest \
+		--tag ghcr.io/astrasky-net/cloudflared:$(VERSION) \
+		--tag ghcr.io/astrasky-net/cloudflared:latest \
+		--tag astrasky-net/cloudflared:$(VERSION) \
+		--tag astrasky-net/cloudflared:latest \
 		--push
